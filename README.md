@@ -11,7 +11,8 @@ _taken 2021-04-02_
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/mobile-first-css-flex-2NYBx7H8m)
+- Github Pages: [Solution on Github](https://arjencombee.github.io/001_profile_card/)
 - Live Site URL: [Solution on showcase](https://simpels.nl/showcase/001_profie_card/)
 
 ## My process
