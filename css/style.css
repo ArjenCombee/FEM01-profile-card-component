@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
 :root {
-  --break-mobile: 375px;
-  --break-desktop: 1440px;
   --color-cyan: hsl(185, 75%, 39%);
   --color-blue: hsl(229, 23%, 23%);
   --color-gray: hsl(227, 10%, 46%);
@@ -27,6 +25,21 @@ body {
   color: var(--color-blue);
   background-color: var(--color-cyan);
   padding: 2rem;
+  min-height: 100vh;
+}
+body {
+  background: url('../images/bg-pattern-top.svg'),
+    url('../images/bg-pattern-bottom.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100%, 100%;
+  background-position: -150px -250px, 250px 250px;
+  background-color: var(--color-cyan);
+}
+@media only screen and (min-width: 600px) {
+  body {
+    background-size: 60%, 75%;
+    background-position: -250px -500px, 600px 500px;
+  }
 }
 .card {
   background-color: #fff;
