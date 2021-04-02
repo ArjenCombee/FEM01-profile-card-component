@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+  --break-mobile: 375px;
+  --break-desktop: 1440px;
+  --color-cyan: hsl(185, 75%, 39%);
+  --color-blue: hsl(229, 23%, 23%);
+  --color-gray: hsl(227, 10%, 46%);
+  --color-grayblue: hsl(0, 0%, 59%);
+  --color-grayblueAlpha: hsla(0, 0%, 59%, 60%);
+}
+html {
+  font-size: 18px;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  color: var(--color-blue);
+  background-color: var(--color-cyan);
+  padding: 2rem;
+}
+.card {
+  background-color: #fff;
+  width: 19rem;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.profile {
+  position: relative;
+  height: 15rem;
+}
+.profile-photo {
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  width: 30%;
+  border: 5px solid #fff;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.profile-top {
+  background: url('../images/bg-pattern-card.svg') no-repeat;
+  background-size: cover;
+  height: 50%;
+}
+.profile-details {
+  text-align: center;
+  padding-top: 4rem;
+}
+.profile-name {
+  font-weight: 700;
+}
+.profile-age,
+.profile-location {
+  font-weight: 400;
+  color: var(--color-gray);
+}
+.profile-location {
+  font-size: 0.7rem;
+  padding-top: 0.7rem;
+}
+.stats-list {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border-top: 2px solid var(--color-grayblueAlpha);
+}
+.stats-item {
+  padding: 2rem 0;
+  font-weight: 700;
+}
+.stats-item .count {
+  padding-bottom: 0.5rem;
+}
+.stats-item .label {
+  font-size: 0.6rem;
+  color: var(--color-gray);
+  letter-spacing: 1px;
+}
+/* frontendmentor */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 3rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
