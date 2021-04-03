@@ -34,18 +34,12 @@ body {
   min-height: 100vh;
 }
 body {
-  background: url('../images/bg-pattern-top.svg'),
-    url('../images/bg-pattern-bottom.svg');
-  background-repeat: no-repeat, no-repeat;
-  background-size: 100%, 100%;
-  background-position: -150px -250px, 250px 250px;
+  background-color: var(--color-dark-cyan);
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: right 52vw bottom 34vh, left 49vw top 50vh;
   background-color: var(--color-cyan);
-}
-@media only screen and (min-width: 600px) {
-  body {
-    background-size: 60%, 75%;
-    background-position: -250px -500px, 600px 500px;
-  }
 }
 .card {
   background-color: #fff;
