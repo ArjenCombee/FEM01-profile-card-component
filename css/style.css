@@ -58,6 +58,7 @@ body {
   border-radius: 50%;
   width: 30%;
   border: 5px solid #fff;
+  background-color: #fff;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -75,6 +76,10 @@ body {
 .profile-name {
   font-weight: 700;
   color: var(--color-blue);
+}
+.profile-age {
+  color: var(--color-gray);
+  font-weight: 400;
 }
 .profile-location {
   font-size: 0.7rem;
