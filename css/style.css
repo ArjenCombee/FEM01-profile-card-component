@@ -56,7 +56,8 @@ body {
 .profile-photo {
   position: absolute;
   border-radius: 50%;
-  width: 30%;
+  width: 5.5rem;
+  height: 5.5rem;
   border: 5px solid #fff;
   background-color: #fff;
   left: 50%;
